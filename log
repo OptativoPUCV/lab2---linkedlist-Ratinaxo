@@ -339,3 +339,14 @@ list.c:115:9: error: unused variable ‘data’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 d0b0892
+Fri 24 Mar 2023 03:35:54 AM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:116:9: error: unused variable ‘nodoABorrar’ [-Werror=unused-variable]
+  116 |   Node *nodoABorrar = list->current;
+      |         ^~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+2e8c27b

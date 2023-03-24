@@ -120,7 +120,7 @@ void * popCurrent(List * list) {
   }
   
   //free(nodoABorrar);
-    return NULL;
+    return data;
 }
 
 void cleanList(List * list) {
