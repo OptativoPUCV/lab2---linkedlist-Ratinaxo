@@ -350,3 +350,19 @@ list.c:116:9: error: unused variable ‘nodoABorrar’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 2e8c27b
+Fri 24 Mar 2023 03:36:07 AM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:122:8: error: incompatible type for argument 1 of ‘free’
+  122 |   free(*nodoABorrar);
+      |        ^~~~~~~~~~~~
+      |        |
+      |        Node
+In file included from test.c:2:
+/nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/stdlib.h:555:25: note: expected ‘void *’ but argument is of type ‘Node’
+  555 | extern void free (void *__ptr) __THROW;
+      |                   ~~~~~~^~~~~
+Compilation failed
+376b500
