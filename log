@@ -19,3 +19,17 @@ Fri 24 Mar 2023 12:57:34 AM UTC:
  tests:  1|5
 total_score: 10/70
 4235588
+Fri 24 Mar 2023 01:05:42 AM UTC: 
+ list.c | 12 +++++++-----
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘firstList’:
+list.c:40:20: error: incompatible types when assigning to type ‘Node’ from type ‘Node *’
+   40 |   *list->current = list->head;
+      |                    ^~~~
+list.c:39:9: error: unused variable ‘data’ [-Werror=unused-variable]
+   39 |   void *data = list->head->data;
+      |         ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+1206505
