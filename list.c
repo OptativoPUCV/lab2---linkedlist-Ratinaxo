@@ -115,9 +115,9 @@ void * popCurrent(List * list) {
   void *data = list->current->data;
   Node *nodoABorrar = list->current;
 
-  if (list->current == list->head){
+  /*if (list->current == list->head){
     list->current->next = list->head;
-  }
+  }*/
   
   free(nodoABorrar);
     return data;
