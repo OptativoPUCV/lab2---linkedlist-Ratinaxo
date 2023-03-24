@@ -308,3 +308,14 @@ list.c:115:9: error: unused variable ‘data’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 d825276
+Fri 24 Mar 2023 03:35:17 AM UTC: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:122:8: error: ‘nodoABorrar’ undeclared (first use in this function)
+  122 |   free(nodoABorrar);
+      |        ^~~~~~~~~~~
+list.c:122:8: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+65404fc
