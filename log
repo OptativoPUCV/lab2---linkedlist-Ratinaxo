@@ -297,3 +297,14 @@ Fri 24 Mar 2023 03:34:48 AM UTC:
  1 file changed, 2 insertions(+), 2 deletions(-)
  tests:  0|0
 dca0a24
+Fri 24 Mar 2023 03:35:03 AM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:115:9: error: unused variable ‘data’ [-Werror=unused-variable]
+  115 |   void *data = list->current->data;
+      |         ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+d825276
