@@ -231,3 +231,12 @@ Fri 24 Mar 2023 01:45:32 AM UTC:
  tests:  9|3
 total_score: 35/70
 86ea9f1
+Fri 24 Mar 2023 01:46:53 AM UTC: 
+ list.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+In file included from test.c:5:
+list.c:74:1: error: expected identifier or ‘(’ before ‘}’ token
+   74 | }
+      | ^
+Compilation failed
+e8f46a8
