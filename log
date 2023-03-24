@@ -33,3 +33,14 @@ list.c:39:9: error: unused variable ‘data’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 1206505
+Fri 24 Mar 2023 01:11:58 AM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘firstList’:
+list.c:39:9: error: unused variable ‘data’ [-Werror=unused-variable]
+   39 |   void *data = list->head->data;
+      |         ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+640ed6e
