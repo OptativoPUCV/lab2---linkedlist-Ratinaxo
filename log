@@ -44,3 +44,8 @@ list.c:39:9: error: unused variable ‘data’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 640ed6e
+Fri 24 Mar 2023 01:12:19 AM UTC: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|0
+a5cf6b1
