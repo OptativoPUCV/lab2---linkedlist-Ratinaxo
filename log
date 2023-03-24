@@ -240,3 +240,9 @@ list.c:74:1: error: expected identifier or ‘(’ before ‘}’ token
       | ^
 Compilation failed
 e8f46a8
+Fri 24 Mar 2023 01:47:02 AM UTC: 
+ list.c | 2 --
+ 1 file changed, 2 deletions(-)
+ tests:  9|3
+total_score: 35/70
+30ee35e
